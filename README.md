@@ -15,7 +15,7 @@ http://forum.mruby.org/download/index201.html よりmruby Stable版2.0.1 をダ�
 ```
 git clone https://github.com/yamanekko/mruby-ev3rt.git
 ```
-こんな感じになります。
+こんな感じになります。(mruby-2.0.1.tar.gz はなくて良いです)
 
 ```
 $ls
