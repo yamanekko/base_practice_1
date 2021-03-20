@@ -10,10 +10,10 @@
 http://forum.mruby.org/download/index201.html よりmruby Stable版2.0.1 をダウンロードし、箱庭の「hakoniwa-Unity-HackEV」と同じ階層に展開（解凍）してください。
 
 2. mruby用のmrbgemの追加
-   https://github.com/yamanekko/mruby-ev3rt も同じ階層にcloneします。
+   https://github.com/mruby-Forum/mruby-ev3rt も同じ階層にcloneします。
 
 ```
-git clone https://github.com/yamanekko/mruby-ev3rt.git
+git clone https://github.com/mruby-Forum/mruby-ev3rt.git
 ```
 こんな感じになります。(mruby-2.0.1.tar.gz はなくて良いです)
 
