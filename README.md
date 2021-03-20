@@ -24,6 +24,15 @@ hakoniwa-Unity-HackEV   mruby-2.0.1             mruby-2.0.1.tar.gz      mruby-ev
 
 注）違うディレクトリ構成にしたい場合は、パスの指定をしているところを環境に合わせて修正してください。
 
+### build_config_ev3rt_sim.rbの修正
+
+`mruby-evr3rt/build_config_ev3rt_sim.rb` について、以下の部分を環境に合わせてパスを修正してください。
+
+```
+EV3RT_PATH = "ev3rt-athrill-v850e2m のパスをここに書く"
+GNU_TOOL_PREFX = "（環境に合わせてパスを追加）/athrill-gcc/bin/v850-elf-"
+```
+
 ### mrubyのビルド
 
 mruby-2.0.1 ディレクトリ内で以下のコマンドを実行してください。
