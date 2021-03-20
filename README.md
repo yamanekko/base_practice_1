@@ -46,13 +46,17 @@ $ MRUBY_CONFIG=(mruby-ev3rtのパス)/mruby-ev3rt/build_config_ev3rt_sim.rb rake
 
 ## 使い方
 
-1. このbase_practice_1ディレクトリに「buildディレクトリ以外すべて」を上書きしてください。
+1. このbase_practice_1ディレクトリに「buildディレクトリとsimulatorディレクトリ配下以外すべて」を上書きしてください。
    
    (もともとbase_practice_1にあった他のファイルは消さないで残しておいてください)
 2. Makefile.inc のmrubyのディレクトリのパスをあなたの環境にあわせて修正してください。
 3. buildディレクトリの中身は、
 ＜プロジェクト名＞/buildディレクトリに同じ名前のファイルがあるので上書きしてください。
 （箱庭シミュレータのビルドの方法で同時にmrubyのバイトコードがビルドできます）
+
+4. simulatorディレクトリの中身は、Makefile.imgにmrubyの設定を追加したものです。
+`＜プロジェクト名＞/simulator/ev3rt-athrill-v850e2m/sdk/common/Makefile.img` 
+に上書きしてください。
 
 参考）base_practice_1
 https://github.com/toppers/hakoniwa-scenario-samples/tree/master/single-robot/base_practice_1
