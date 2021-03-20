@@ -24,6 +24,17 @@ hakoniwa-Unity-HackEV   mruby-2.0.1             mruby-2.0.1.tar.gz      mruby-ev
 
 注）違うディレクトリ構成にしたい場合は、パスの指定をしているところを環境に合わせて修正してください。
 
+### mrubyのビルド
+
+mruby-2.0.1 ディレクトリ内で以下のコマンドを実行してください。
+
+```
+$ MRUBY_CONFIG=(mruby-ev3rtのパス)/mruby-ev3rt/build_config_ev3rt_sim.rb rake
+```
+
+ビルドに成功すると、 `(mruby-ev3rtのパス)/mruby-2.0.1/build/EV3RT-sim/lib/libmruby.a` が生成されます。
+
+
 ## 使い方
 
 1. このbase_practice_1ディレクトリに「buildディレクトリ以外すべて」を上書きしてください。
