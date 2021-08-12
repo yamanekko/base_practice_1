@@ -4,7 +4,7 @@
 箱庭シミュレータをインストールすると
 ＜プロジェクト名＞/simulator/ev3rt-athrill-v850e2m/sdk/workspace/base_practice_1
 ができています。
-箱庭の手順書にしたがって、箱庭シミュレータでC言語アプリが実行できることを確認してから、以下の手順に進んでください。
+箱庭の手順書に従って、箱庭シミュレータでC言語アプリが実行できることを確認してから、以下の手順に進んでください。
 
 1. mrubyの追加
 http://forum.mruby.org/download/index201.html よりmruby Stable版2.0.1 をダウンロードし、箱庭の「hakoniwa-Unity-HackEV」と同じ階層に展開（解凍）してください。
